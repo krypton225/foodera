@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-btn {
+    padding: 1rem 1.5rem;
+    background: #a82d49;
+    color: #FFFEFE;
+}
