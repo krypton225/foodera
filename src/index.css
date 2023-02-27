@@ -2,8 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-btn {
-    padding: 1rem 1.5rem;
-    background: #a82d49;
-    color: #FFFEFE;
+:root {
+    --degree-toggler-menu: 135deg;
+    --custom-btn-padding: 1rem 1.5rem;
+}
+
+.btn {
+    padding: var(--custom-btn-padding);
+}
+
+.custom-btn-default {
+    padding: 0.6rem 1.5rem;
+    color: #a82d49;
+    background-color: #FFFEFE;
+}
+
+.transition-1\/2 {
+    transition: all 0.5s ease-in-out;
+}
+
+.rotate-left-45 {
+    transform: rotate(var(--degree-toggler-menu)) translateY(-0.8rem);
+}
+
+.scale-hide {
+    transform: scale(3);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.rotate-right-45 {
+    transform: rotate(calc(var(--degree-toggler-menu) * -1)) translateY(0.8rem);
 }

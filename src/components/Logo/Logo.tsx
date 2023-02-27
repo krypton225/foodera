@@ -4,8 +4,8 @@ import { LogoImage } from "../../data/Photos";
 
 const Logo = ({ widthInRem = 44 }: ILogo) => {
     return (
-        <div className={`w-${widthInRem}`} >
-            <img src={LogoImage} alt="Foodera" />
+        <div className={`w-32 lg:w-${widthInRem}`} >
+            <img src={LogoImage} alt="Foodera" className="w-full h-full object-cover" />
         </div >
     );
 };
