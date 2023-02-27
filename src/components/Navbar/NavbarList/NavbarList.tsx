@@ -6,7 +6,7 @@ const NavbarList = ({ togglerValue }: INavbarList) => {
     return (
         <ul className={`w-[90%] h-auto py-8 absolute ${togglerValue ? "top-28 opacity-100 visible" : "top-16 opacity-0 invisible"} right-[5%] 
                 rounded-md flex flex-col justify-center items-center bg-primary-light lg:static lg:py-0 lg:bg-transparent 
-                lg:flex lg:items-center lg:justify-end lg:flex-row lg:h-auto transition-all duration-[0.66s]`}>
+                lg:flex lg:flex-row lg:items-center lg:justify-end lg:h-auto lg:visible lg:opacity-100 transition-all duration-[0.66s]`}>
 
             {listDataItems.map(({ id, linkText, linkURL, isButton }) => {
                 return (
