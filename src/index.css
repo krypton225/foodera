@@ -3,12 +3,16 @@
 @tailwind utilities;
 
 @layer components {
-    .line-toggler {
-        @apply w-full h-1 rounded-md bg-primary-dark;
+    .line {
+        @apply h-1 rounded-md bg-primary-dark
+    }
+
+    .line-toggler-full {
+        @apply w-full;
     }
 
     .line-toggler-half {
-        @apply w-[70%] mr-auto h-1 rounded-md bg-primary-dark;
+        @apply w-[70%] mr-auto;
     }
 }
 
