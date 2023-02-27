@@ -4,7 +4,7 @@ import { Logo } from "../main";
 
 import listDataItems from "./list-data";
 
-import Hamburger from "../Hamburger/Hamburger";
+import Hamburger from "./Hamburger/Hamburger";
 
 const Navbar = () => {
     const [toggler, setToggler] = useState<boolean>(false);
