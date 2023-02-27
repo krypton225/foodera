@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .line-toggler {
+        @apply w-full h-1 rounded-md bg-primary-dark;
+    }
+}
+
 :root {
     --degree-toggler-menu: 135deg;
     --custom-btn-padding: 1rem 1.5rem;

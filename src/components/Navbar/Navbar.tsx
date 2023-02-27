@@ -32,9 +32,9 @@ const Navbar = () => {
                 </ul>
 
                 <div className="w-12 h-6 flex flex-col justify-between items-center select-none cursor-pointer lg:hidden" onClick={handleToggleMenu}>
-                    <span className={`w-full h-1 rounded-md bg-primary-dark transition-1\/2 ${toggler ? "rotate-left-45" : ""}`}></span>
-                    <span className={`w-full h-1 rounded-md bg-primary-dark transition-1\/2 ${toggler ? "scale-hide" : ""}`}></span>
-                    <span className={`w-full h-1 rounded-md bg-primary-dark transition-1\/2 ${toggler ? "rotate-right-45" : ""}`}></span>
+                    <span className={`line-toggler transition-1\/2 ${toggler ? "rotate-left-45" : ""}`}></span>
+                    <span className={`line-toggler transition-1\/2 ${toggler ? "scale-hide" : ""}`}></span>
+                    <span className={`line-toggler transition-1\/2 ${toggler ? "rotate-right-45" : ""}`}></span>
                 </div>
             </div>
         </nav>
