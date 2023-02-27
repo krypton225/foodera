@@ -21,6 +21,10 @@
     --custom-btn-padding: 1rem 1.5rem;
 }
 
+body {
+    /* height: 30000px; */
+}
+
 .btn {
     padding: var(--custom-btn-padding);
 }
