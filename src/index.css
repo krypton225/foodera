@@ -6,6 +6,10 @@
     .line-toggler {
         @apply w-full h-1 rounded-md bg-primary-dark;
     }
+
+    .line-toggler-half {
+        @apply w-[70%] mr-auto h-1 rounded-md bg-primary-dark;
+    }
 }
 
 :root {

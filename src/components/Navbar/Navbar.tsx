@@ -4,8 +4,10 @@ import { Logo } from "../main";
 
 import listDataItems from "./list-data";
 
+import Hamburger from "../Hamburger/Hamburger";
+
 const Navbar = () => {
-    const [toggler, setToggler] = useState<Boolean>(false);
+    const [toggler, setToggler] = useState<boolean>(false);
 
     const handleToggleMenu = () => setToggler(!toggler);
 
@@ -31,11 +33,7 @@ const Navbar = () => {
                     })}
                 </ul>
 
-                <div className="w-12 h-6 flex flex-col justify-between items-center select-none cursor-pointer lg:hidden" onClick={handleToggleMenu}>
-                    <span className={`line-toggler transition-1\/2 ${toggler ? "rotate-left-45" : ""}`}></span>
-                    <span className={`line-toggler transition-1\/2 ${toggler ? "scale-hide" : ""}`}></span>
-                    <span className={`line-toggler transition-1\/2 ${toggler ? "rotate-right-45" : ""}`}></span>
-                </div>
+                <Hamburger toggleValue={toggler} toggleFunction={handleToggleMenu} />
             </div>
         </nav>
     );
