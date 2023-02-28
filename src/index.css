@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("./fontello.css");
+
 @layer components {
     .line {
         @apply h-1 rounded-md bg-primary-dark
@@ -59,4 +61,10 @@ body {
 
 .rotate-right-45 {
     transform: rotate(calc(var(--degree-toggler-menu) * -1)) translateY(0.8rem);
+}
+
+@media (max-width: 1023px) {
+    .landing {
+        background-image: none !important;
+    }
 }

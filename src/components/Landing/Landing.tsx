@@ -4,7 +4,7 @@ import { LandingImageBg } from "../../data/Photos";
 
 const Landing = () => {
     return (
-        <section className={`sec-padding-12 min-h-screen flex justify-center lg:justify-start items-center text-center lg:text-start bg-cover bg-right-bottom`}
+        <section className={`landing sec-padding-12 min-h-screen flex justify-center lg:justify-start items-center text-center lg:text-start bg-cover bg-no-repeat`}
             style={{ backgroundImage: `url('${LandingImageBg}')` }}>
 
             <div className="container">
@@ -18,9 +18,8 @@ const Landing = () => {
                 </div>
 
                 <div className="min-w-[20rem] max-[560px]:w-full max-[767px]:w-[76%] max-[1023px]:w-3/5 lg:w-[24rem] mt-12 max-[1023px]:mx-auto flex justify-between items-center">
-                    {/* TODO: ADD icons here! */}
-                    <MainButton text="order now" bg="primary-light" color="white" />
-                    <MainButton text="learn more" bg="white" color="black" />
+                    <MainButton text="order now" bg="primary-light" color="white" iconClasses="icon-shopping-basket" />
+                    <MainButton text="learn more" bg="white" color="black" iconClasses="icon-right-open-big" />
                 </div>
             </div>
         </section>
