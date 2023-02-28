@@ -15,3 +15,5 @@ export { default as WatchStory } from "./WatchStory/WatchStory.tsx";
 export { default as TitleSection } from "./TitleSection/TitleSection.tsx";
 
 export { default as Explore } from "./Explore/Explore.tsx";
+
+export { default as Testimonials } from "./Testimonials/Testimonials.tsx";

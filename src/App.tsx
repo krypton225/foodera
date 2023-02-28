@@ -4,7 +4,8 @@ import {
   LandingState,
   About,
   WatchStory,
-  Explore
+  Explore,
+  Testimonials
 } from "./components/main";
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <WatchStory />
 
       <Explore />
+
+      <Testimonials />
     </div>
   );
 }
