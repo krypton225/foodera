@@ -7,3 +7,5 @@ export { default as Landing } from "./Landing/Landing.tsx";
 export { default as MainButton } from "./MainButton/MainButton.tsx";
 
 export { default as LandingState } from "./LandingState/LandingState.tsx";
+
+export { default as About } from "./About/About.tsx";
