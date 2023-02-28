@@ -1,8 +1,8 @@
 import ITitleSection from "./ITitleSection.interface";
 
-const TitleSection = ({ text = "", color = "primary-dark", fontSize = 4 }: ITitleSection) => {
+const TitleSection = ({ text = "", fontSize = 28 }: ITitleSection) => {
     return (
-        <p className={`w-full mx-auto text-center capitalize text-${color} font-medium text-[${fontSize}]`}>
+        <p className={`w-full mx-auto text-center capitalize font-semibold text-secondary`} style={{ fontSize: fontSize }}>
             {text}
         </p>
     );

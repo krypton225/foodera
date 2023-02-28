@@ -1,4 +1,11 @@
-import { Navbar, Landing, LandingState, About, WatchStory } from "./components/main";
+import {
+  Navbar,
+  Landing,
+  LandingState,
+  About,
+  WatchStory,
+  Explore
+} from "./components/main";
 
 function App() {
   return (
@@ -10,6 +17,8 @@ function App() {
 
       <About />
       <WatchStory />
+
+      <Explore />
     </div>
   );
 }
