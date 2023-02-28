@@ -25,6 +25,10 @@ body {
     /* height: 30000px; */
 }
 
+.sec-padding-12 {
+    padding-block: 12rem;
+}
+
 .btn {
     padding: var(--custom-btn-padding);
 }

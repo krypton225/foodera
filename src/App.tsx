@@ -1,9 +1,11 @@
-import { Navbar } from "./components/main";
+import { Navbar, Landing } from "./components/main";
 
 function App() {
   return (
-    <div className="App">
+    <div className="foodera-app">
       <Navbar />
+
+      <Landing />
     </div>
   );
 }
