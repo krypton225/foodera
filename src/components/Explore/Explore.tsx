@@ -1,4 +1,6 @@
-import { MainButton, TitleSection } from "../main";
+import { TitleSection } from "../main";
+
+import Card from "./Card/Card";
 
 import exploreDataItems from "./explore-data";
 
@@ -15,30 +17,10 @@ const Explore = () => {
             </p>
 
             <div className="container mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
-                {
-                    exploreDataItems.map(({ id, imgURL, title, time: { start, end }, servesCount, currentPrice, previousPrice }) => (
-                        <div key={id} className="w-full min-h-[30rem] capitalize">
-                            <div className="w-full rounded-xl">
-                                <img src={imgURL} alt={title} className="w-full h-full object-cover rounded-xl" />
-                            </div>
-
-                            <div className="w-full text-start ml-2">
-                                <p className="mt-5 text-secondary text-xl lg:text-2xl font-semibold">{title}</p>
-
-                                <p className="my-3 text-slate-500 text-xl">Time: {start} - {end} minutes | serves: {servesCount}</p>
-
-                                <p className="mb-4 text-2xl">
-                                    <span className="text-primary-light font-semibold">${currentPrice}</span>
-                                    <span className="ml-2 text-slate-500">
-                                        <del>${previousPrice}</del>
-                                    </span>
-                                </p>
-
-                                <MainButton bg="primary-light" color="white" text="order now" addStyles="w-[10rem] lg:w-[11rem]" />
-                            </div>
-                        </div>
-                    ))
-                }
+                {exploreDataItems.map(({ id, imgURL, title, time: { start, end }, servesCount, currentPrice, previousPrice }) => (
+                    <Card key={id} title={title} img={imgURL} startTime={start} endTime={end}
+                        servesCount={servesCount} currentPrice={currentPrice} previousPrice={previousPrice} />
+                ))}
             </div>
         </section>
     );
