@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url("./fontello.css");
+@import url("./roboto.css");
 
 @layer components {
     .line {
@@ -29,6 +30,7 @@
 
 body {
     /* height: 30000px; */
+    font-family: 'Roboto', sans-serif;
 }
 
 body::-webkit-scrollbar {
