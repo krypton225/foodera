@@ -31,6 +31,20 @@ body {
     /* height: 30000px; */
 }
 
+body::-webkit-scrollbar {
+    width: 0.4em;
+    background-color: transparent !important;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 4.5rem;
+    background-color: #B03945 !important;
+}
+
 .sec-padding-12 {
     padding-block: 12rem;
 }

@@ -6,7 +6,7 @@ const MainButton = ({ text, url = "", color, bg, iconClasses = "", addStyles = "
         before:content-[""] before:w-full before:h-full before:absolute before:top-0 before:left-0 before:border-0 before:border-primary-light 
         before:transition-all before:duration-[0.1s] ${bg === "white" ? "shadow-lg hover:before:border-2 hover:text-primary-light" : ""} ${addStyles}`}>
             <span className='flex justify-center items-center text-center'>{text}</span>
-            <i className={`${iconClasses} ml-2`}></i>
+            <i className={`${iconClasses} ml-1`}></i>
         </a>
     );
 };
