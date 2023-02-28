@@ -9,3 +9,5 @@ export { default as MainButton } from "./MainButton/MainButton.tsx";
 export { default as LandingState } from "./LandingState/LandingState.tsx";
 
 export { default as About } from "./About/About.tsx";
+
+export { default as WatchStory } from "./WatchStory/WatchStory.tsx";
