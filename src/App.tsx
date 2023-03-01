@@ -5,7 +5,8 @@ import {
   About,
   WatchStory,
   Explore,
-  Testimonials
+  Testimonials,
+  FAQ
 } from "./components/main";
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
       <Explore />
 
       <Testimonials />
+
+      <FAQ />
     </div>
   );
 }
