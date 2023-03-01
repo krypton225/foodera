@@ -19,3 +19,5 @@ export { default as Explore } from "./Explore/Explore.tsx";
 export { default as Testimonials } from "./Testimonials/Testimonials.tsx";
 
 export { default as FAQ } from "./FAQ/FAQ.tsx";
+
+export { default as FreshDaily } from "./FreshDaily/FreshDaily.tsx";

@@ -6,7 +6,8 @@ import {
   WatchStory,
   Explore,
   Testimonials,
-  FAQ
+  FAQ,
+  FreshDaily
 } from "./components/main";
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
       <Testimonials />
 
       <FAQ />
+
+      <FreshDaily />
     </div>
   );
 }
