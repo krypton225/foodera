@@ -7,7 +7,7 @@ import testimonialsData from './testimonials-data';
 
 const Testimonials = () => {
     return (
-        <section className="sec-padding-12 bg-primary-light">
+        <section className="sec-padding-12 bg-primary-light" id="reviews">
             <TitleSection text="testimonials" fontSize={45} isWhite={true} />
 
             <div className="w-full rounded-xl container mt-32 flex justify-center items-center">
