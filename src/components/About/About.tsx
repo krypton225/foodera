@@ -4,7 +4,7 @@ import aboutData from "./about-data";
 
 const About = () => {
     return (
-        <section className="w-full sec-padding-12">
+        <section className="w-full sec-padding-12" id="about">
             <div className="w-full container grid grid-cols-1 gap-y-44">
                 {
                     aboutData.map(({ id, title, description, listItems, btnText, isImageAtLeft, image: { url, altText } }) => (
