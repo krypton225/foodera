@@ -28,6 +28,10 @@
     --custom-btn-padding: 1rem 1.5rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /* height: 30000px; */
     font-family: 'Roboto', sans-serif;
