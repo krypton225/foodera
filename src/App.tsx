@@ -7,7 +7,8 @@ import {
   Explore,
   Testimonials,
   FAQ,
-  FreshDaily
+  FreshDaily,
+  Subscribe
 } from "./components/main";
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
       <FAQ />
 
       <FreshDaily />
+
+      <Subscribe />
     </div>
   );
 }
