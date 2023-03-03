@@ -6,7 +6,7 @@ import exploreDataItems from "./explore-data";
 
 const Explore = () => {
     return (
-        <section className="sec-padding-12">
+        <section className="sec-padding-12" id="explore">
             <TitleSection fontSize={45} text="explore our foods" />
 
             <p className="w-[85%] lg:w-[50%] mx-auto mt-8 text-center leading-tight text-lg text-slate-500">
