@@ -23,3 +23,5 @@ export { default as FAQ } from "./FAQ/FAQ.tsx";
 export { default as FreshDaily } from "./FreshDaily/FreshDaily.tsx";
 
 export { default as Subscribe } from "./Subscribe/Subscribe.tsx";
+
+export { default as Footer } from "./Footer/Footer.tsx";

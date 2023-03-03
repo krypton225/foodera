@@ -8,7 +8,8 @@ import {
   Testimonials,
   FAQ,
   FreshDaily,
-  Subscribe
+  Subscribe,
+  Footer
 } from "./components/main";
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
       <FreshDaily />
 
       <Subscribe />
+
+      <Footer />
     </div>
   );
 }
