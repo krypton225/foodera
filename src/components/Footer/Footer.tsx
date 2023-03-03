@@ -16,7 +16,8 @@ const Footer = () => {
                 <div className="mt-12">
                     {
                         socialDataItems.map(({ id, iconClassName, url, titleText }) => (
-                            <a key={id} href={url} title={titleText} className="text-2xl lg:text-3xl" target="_blank" aria-label={titleText}>
+                            <a key={id} href={url} title={titleText} className="text-2xl lg:text-3xl" target="_blank"
+                                aria-label={titleText} rel="noreferrer">
                                 <i className={iconClassName}></i>
                             </a>
                         ))
