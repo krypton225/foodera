@@ -1,3 +1,5 @@
+![localhost_3000_](https://user-images.githubusercontent.com/73050798/222982339-3b18d677-8f0f-477e-afc8-40a68370e4b1.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
