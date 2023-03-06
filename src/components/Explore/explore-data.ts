@@ -1,6 +1,6 @@
 import GenerateId from "../../Utils/generate-id";
 
-import IExploreData from "./IExploreData";
+import IExploreData from "./IExploreData.interface";
 
 import { Food1, Food2, Food3 } from "../../data/Photos";
 

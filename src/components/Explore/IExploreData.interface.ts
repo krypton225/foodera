@@ -1,5 +1,6 @@
-interface IExploreData {
-    id?: number;
+import ISetID from "../../Utils/interfaces/ISetID.interface";
+
+interface IExploreData extends ISetID {
     imgURL: string;
     title: string;
     time: {
