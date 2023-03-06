@@ -17,9 +17,18 @@ const Explore = () => {
             </p>
 
             <div className="container mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
-                {exploreDataItems.map(({ id, imgURL, title, time: { start, end }, servesCount, currentPrice, previousPrice }) => (
+                {exploreDataItems.map((
+                    { id,
+                        imgURL,
+                        title,
+                        time: { start, end },
+                        servesCount,
+                        currentPrice,
+                        previousPrice }
+                ) => (
                     <Card key={id} title={title} img={imgURL} startTime={start} endTime={end}
-                        servesCount={servesCount} currentPrice={currentPrice} previousPrice={previousPrice} />
+                        servesCount={servesCount} currentPrice={currentPrice}
+                        previousPrice={previousPrice} />
                 ))}
             </div>
         </section>
