@@ -1,5 +1,6 @@
-interface IAbout {
-    id?: number;
+import ISetID from "../../Utils/interfaces/ISetID.interface";
+
+interface IAbout extends ISetID {
     image: {
         url: string,
         altText: string;
