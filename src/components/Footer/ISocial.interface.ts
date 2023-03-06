@@ -1,5 +1,6 @@
-interface ISocial {
-    id?: number;
+import ISetID from "../../Utils/interfaces/ISetID.interface";
+
+interface ISocial extends ISetID {
     iconClassName: string;
     url: string;
     titleText: string;
