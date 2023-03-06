@@ -32,7 +32,7 @@ const Navbar = () => {
             <div className="w-full container flex justify-between items-center">
                 <Logo widthInRem={44} />
 
-                <NavbarList togglerValue={toggler} />
+                <NavbarList togglerValue={toggler} setToggler={setToggler} />
 
                 <Hamburger toggleValue={toggler} toggleFunction={handleToggleMenu} />
             </div>
